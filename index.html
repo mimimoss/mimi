@@ -8,8 +8,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <section class="heading">
-            <div class="navBar">
+        <section class="heading" id="mimi">
+            <div class="navBar" id="navbar">
                 <div class="homeLink">
                     <a href="#mimi">Mimi Moss</a>
                 </div>
@@ -32,14 +32,33 @@
             </div>
         </section>
         <section id="resume">
-            <h1 id="resumeTitle">
-                Resume
-            </h1>
+            <div>
+                <h1 id="resumeTitle">
+                    Resume
+                </h1>
+            </div>
         </section>
         <section id="contact">
-            
+            <div>
+                <h1 id="contactTitle">
+                    Contact
+                </h1>
+            </div>
         </section>
         </div>
+        <script>
+            window.addEventListener('scroll', function() {
+                var navbar = document.getElementById('navbar');
+                var resumeSection = document.getElementById('resume');
+                var scrollPosition = window.scrollY;
+
+                if (scrollPosition >= resumeSection.offsetTop) { // Change the condition here
+                    navbar.classList.add('sticky');
+                } else {
+                    navbar.classList.remove('sticky');
+                }
+            });
+        </script>
     </body>
 </html>
 
