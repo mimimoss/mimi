@@ -21,7 +21,7 @@ ativbody {
 }
 
 .navBar {
-    display: inline;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid #faf0e6;;
@@ -40,11 +40,12 @@ ativbody {
 
 .logo a {
   text-decoration: none;
-    padding-left: 40px;
+  margin-left: 40px;
 }
 
 .navLink a {
   text-decoration: none;
+  display: inline-block;
   margin: 20px;
 }
 
