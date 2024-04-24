@@ -75,7 +75,7 @@ body {
   display: inline-block; /* Ensure the text is off-screen initially */
   color: #faf0e6;
   width: 100%;
-  text-align: right;
+  text-align: left;
   justify-content: center;
   clear: both;
   float: left;
