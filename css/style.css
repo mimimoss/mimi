@@ -38,10 +38,14 @@ body {
   color: #fff;
 }
 
+.logo a {
+  text-decoration: none;
+}
+
 .navLink a {
   text-decoration: none;
-    position: absolute;
-    right: 20px;
+  position: absolute;
+  right: 20px;
 }
 
 .titleWords {
