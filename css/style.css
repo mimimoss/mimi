@@ -37,12 +37,6 @@ body {
 .navBar a:hover {
   color: #fff;
 }
-  
-.homeLink a {
-  text-decoration: none;
-  font-size: 50px;
-  margin: 20px;
-}
 
 .navLink a {
   text-decoration: none;
