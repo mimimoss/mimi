@@ -1,4 +1,4 @@
-body {
+ativbody {
     font-family: 'Playfair Display', serif;
     width: 100%;
     padding: 0;
@@ -44,7 +44,7 @@ body {
 
 .navLink a {
   text-decoration: none;
-  position: absolute;
+  position: relative;
   right: 20px;
 }
 
