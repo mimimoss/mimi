@@ -90,7 +90,7 @@ body {
   }
 }
 
-.resume {
+#resume {
   background-color: #faf0e6;
   height: 700px;
   position: relative;
@@ -103,3 +103,5 @@ body {
   top: 50%;
   left: 0;
 }
+
+
