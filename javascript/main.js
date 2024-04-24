@@ -1,3 +1,12 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const bannerText = document.getElementById("bannerText");
+  if (bannerText) {
+    animate(bannerText);
+  } else {
+    console.error("Element with ID 'bannerText' not found");
+  }
+});
+
 const bannerText = document.getElementById("bannerText");
 
 animate(bannerText);
