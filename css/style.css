@@ -41,6 +41,7 @@ body {
 .navLink a {
   text-decoration: none;
   margin: 40px;
+  left: 20px;
 }
 
 .titleWords {
