@@ -21,7 +21,7 @@ ativbody {
 }
 
 .navBar {
-    display: flex;
+    display: inline;
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid #faf0e6;;
