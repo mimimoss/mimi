@@ -2,17 +2,18 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-        <script src="javascript/main.js"></script>
+        <script defer src="javascript/main.js" ></script>
     </head>
     <body>
         <section class="heading" id="mimi">
             <div class="navBar" id="navbar">
-                <div class="logo">
-                    <h1>MM</h1>
+                <div class="homeLink">
+                    <h1><a href="#mimi">MM</a></h1>
                 </div>
                 <div class="navLink">
                     <a href="#resume">// Resume</a>
@@ -25,25 +26,54 @@
                     <p>MOSS</p>
                 </div>
                 <div class="question">
-                    <p>Who is She?</p>
+                    <p>Who is She? </p>
                 </div>
             </div>
-            <div class="banner">
-                <p id="bannerText">Website Coming Soon! &bull; Website Coming Soon! &bull; Website Coming Soon! &bull; Website Coming Soon! &bull; </p>
+        </section>
+        <section class="banner">
+            <div class="bannerBar">
+                <p id="bannerText">Website Coming Soon! &bull; Website Coming Soon! &bull; Website Coming Soon! &bull; Website Coming Soon! &bull; 
+                    Website Coming Soon! &bull; Website Coming Soon! &bull; Website Coming Soon! &bull; Website Coming Soon! &bull; Website Coming Soon! &bull; 
+                    Website Coming Soon! &bull; </p>
             </div>
         </section>
         <section id="resume">
-            <div>
+            <div class="left-side">
                 <h1 id="resumeTitle">
-                    Resume
+                    RESUME
                 </h1>
+            </div>
+            <div class="right-side">
+                <ul class="expandable-list">
+                    <hr>
+                    <li class="list-item">
+                        <div class="list-label">About Me</div>
+                        <div class="list-content">I like to read, cook/bake, walk, code, learn, pickle, eat, ski, build legos, yap.</div>
+                    </li>
+                    </hr>
+                    <hr>
+                    <li class="list-item">
+                        <div class="list-label">Education</div>
+                        <div class="list-content">UNCW</div>
+                    </li>
+                    </hr>
+                    <hr>
+                    <li class="list-item">
+                        <div class="list-label">Experience</div>
+                        <div class="list-content">PIMSHQ</div>
+                    </li>
+                    </hr>
+                    <hr></hr>
+                </ul>
             </div>
         </section>
         <section id="contact">
             <div>
                 <h1 id="contactTitle">
-                    Contact
+                    CONTACT
                 </h1>
+                <form>
+                </form>
             </div>
         </section>
     </body>
