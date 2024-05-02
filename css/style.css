@@ -35,6 +35,10 @@ section {
     top: 0px;
   }
 
+.navBar a:active {
+  color: #000;
+}
+
 .navBar a:visited {
   color: #000;
 }
