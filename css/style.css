@@ -147,6 +147,7 @@ section {
   position: relative;
   padding: 10px 0;
   font-size: 30px;
+  font-weight: 600;
   color: black;
   cursor: pointer;
 }
@@ -169,6 +170,12 @@ section {
   width: auto;
   overflow: hidden;
   transition: 0.5s;
+  margin: 0px 10px;
+}
+
+.list-content p{
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .expandable-list .list-item.active .list-content {
@@ -178,6 +185,33 @@ section {
 .expandable-list .list-item.active .list-label::before {
   content: '-';
   font-size: 30px;
+}
+
+#education-content {
+  line-height: 0;
+}
+
+#education-content ul {
+  list-style-type: none;
+}
+
+#education-left-list {
+  padding: 0;
+  grid-column-start: 1;
+}
+
+.schools {
+  padding-bottom: 20px;
+  line-height: 5px;
+}
+
+.inline-school {
+  display: inline-flex;
+}
+
+.year {
+  position: absolute;
+  right: 0px;
 }
 
 .expandable-list hr {
