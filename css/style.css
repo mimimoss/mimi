@@ -35,11 +35,9 @@ user-select: none;
   top: 0px;
 }
 
-.navBar a:active {
-color: #000;
-}
-
-.navBar a:visited {
+.navbar a:link,
+.navBar a:active,
+.navbar a:visited {
 color: #000;
 }
 
