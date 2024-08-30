@@ -35,9 +35,9 @@ user-select: none;
   top: 0px;
 }
 
-.navbar a:link,
+.navBar a:link,
 .navBar a:active,
-.navbar a:visited {
+.navBar a:visited {
 color: #000;
 }
 
